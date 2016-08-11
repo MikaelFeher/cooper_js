@@ -15,7 +15,7 @@ function CooperTest() {
 
 function resultMale (obj) {
   if(obj.age >= 13 && obj.age <= 14) {
-    if(obj.distance > 2700){
+    if(obj.distance >= 2700){
       obj.message = "Excellent"
     }
     if(obj.distance >= 2400 && obj.distance <= 2699){
@@ -27,12 +27,12 @@ function resultMale (obj) {
     if(obj.distance >= 2100 && obj.distance <=2199){
       obj.message = "Below Average"
     }
-    if(obj.distance <2100){
+    if(obj.distance < 2100){
       obj.message = "Poor"
     }
   }
   if(obj.age >= 15 && obj.age <= 16) {
-    if(obj.distance > 2800){
+    if(obj.distance >= 2800){
       obj.message = "Excellent"
     }
     if(obj.distance >= 2500 && obj.distance <= 2799){
@@ -44,12 +44,12 @@ function resultMale (obj) {
     if(obj.distance >= 2200 && obj.distance <=2299){
       obj.message = "Below Average"
     }
-    if(obj.distance <2200){
+    if(obj.distance < 2200){
       obj.message = "Poor"
     }
   }
   if(obj.age >= 17 && obj.age <= 19) {
-    if(obj.distance > 3000){
+    if(obj.distance >= 3000){
       obj.message = "Excellent"
     }
     if(obj.distance >= 2700 && obj.distance <= 2999){
@@ -61,12 +61,12 @@ function resultMale (obj) {
     if(obj.distance >= 2300 && obj.distance <=2499){
       obj.message = "Below Average"
     }
-    if(obj.distance <2300){
+    if(obj.distance < 2300){
       obj.message = "Poor"
     }
   }
   if(obj.age >= 20 && obj.age <= 29) {
-    if(obj.distance > 2800){
+    if(obj.distance >= 2800){
       obj.message = "Excellent"
     }
     if(obj.distance >= 2700 && obj.distance <= 2999){
@@ -78,12 +78,12 @@ function resultMale (obj) {
     if(obj.distance >= 2300 && obj.distance <=2499){
       obj.message = "Below Average"
     }
-    if(obj.distance <2300){
+    if(obj.distance < 2300){
       obj.message = "Poor"
     }
   }
   if(obj.age >= 30 && obj.age <= 39) {
-    if(obj.distance > 2700){
+    if(obj.distance >= 2700){
       obj.message = "Excellent"
     }
     if(obj.distance >= 2300 && obj.distance <= 2699){
@@ -95,12 +95,12 @@ function resultMale (obj) {
     if(obj.distance >= 1500 && obj.distance <=1999){
       obj.message = "Below Average"
     }
-    if(obj.distance <1500){
+    if(obj.distance < 1500){
       obj.message = "Poor"
     }
   }
   if(obj.age >= 40 && obj.age <= 49) {
-    if(obj.distance > 2500){
+    if(obj.distance >= 2500){
       obj.message = "Excellent"
     }
     if(obj.distance >= 2100 && obj.distance <= 2499){
@@ -112,12 +112,12 @@ function resultMale (obj) {
     if(obj.distance >= 1400 && obj.distance <=1699){
       obj.message = "Below Average"
     }
-    if(obj.distance <1400){
+    if(obj.distance < 1400){
       obj.message = "Poor"
     }
   }
   if(obj.age >= 50) {
-    if(obj.distance > 2400){
+    if(obj.distance >= 2400){
       obj.message = "Excellent"
     }
     if(obj.distance >= 2000 && obj.distance <= 2399){
@@ -129,7 +129,7 @@ function resultMale (obj) {
     if(obj.distance >= 1300 && obj.distance <=1599){
       obj.message = "Below Average"
     }
-    if(obj.distance <1300){
+    if(obj.distance < 1300){
       obj.message = "Poor"
     }
   }
@@ -137,7 +137,7 @@ function resultMale (obj) {
 
 function resultFemale (obj) {
   if(obj.age >= 13 && obj.age <= 14) {
-    if(obj.distance > 2000){
+    if(obj.distance >= 2000){
       obj.message = "Excellent"
     }
     if(obj.distance >= 1900 && obj.distance <= 1999){
@@ -149,12 +149,12 @@ function resultFemale (obj) {
     if(obj.distance >= 1500 && obj.distance <=1599){
       obj.message = "Below Average"
     }
-    if(obj.distance <1500){
+    if(obj.distance < 1500){
       obj.message = "Poor"
     }
   }
   if(obj.age >= 15 && obj.age <= 16) {
-    if(obj.distance > 2100){
+    if(obj.distance >= 2100){
       obj.message = "Excellent"
     }
     if(obj.distance >= 2000 && obj.distance <= 2099){
@@ -166,12 +166,12 @@ function resultFemale (obj) {
     if(obj.distance >= 1600 && obj.distance <=1699){
       obj.message = "Below Average"
     }
-    if(obj.distance <1600){
+    if(obj.distance < 1600){
       obj.message = "Poor"
     }
   }
   if(obj.age >= 17 && obj.age <= 19) {
-    if(obj.distance > 2300){
+    if(obj.distance >= 2300){
       obj.message = "Excellent"
     }
     if(obj.distance >= 2100 && obj.distance <= 2299){
@@ -183,12 +183,12 @@ function resultFemale (obj) {
     if(obj.distance >= 1700 && obj.distance <=1799){
       obj.message = "Below Average"
     }
-    if(obj.distance <1700){
+    if(obj.distance < 1700){
       obj.message = "Poor"
     }
   }
   if(obj.age >= 20 && obj.age <= 29) {
-    if(obj.distance > 2700){
+    if(obj.distance >= 2700){
       obj.message = "Excellent"
     }
     if(obj.distance >= 2200 && obj.distance <= 2699){
@@ -200,12 +200,12 @@ function resultFemale (obj) {
     if(obj.distance >= 1500 && obj.distance <=1799){
       obj.message = "Below Average"
     }
-    if(obj.distance <1500){
+    if(obj.distance < 1500){
       obj.message = "Poor"
     }
   }
   if(obj.age >= 30 && obj.age <= 39) {
-    if(obj.distance > 2500){
+    if(obj.distance >= 2500){
       obj.message = "Excellent"
     }
     if(obj.distance >= 2000 && obj.distance <= 2499){
@@ -217,12 +217,12 @@ function resultFemale (obj) {
     if(obj.distance >= 1400 && obj.distance <=1699){
       obj.message = "Below Average"
     }
-    if(obj.distance <1400){
+    if(obj.distance < 1400){
       obj.message = "Poor"
     }
   }
   if(obj.age >= 40 && obj.age <= 49) {
-    if(obj.distance > 2300){
+    if(obj.distance >= 2300){
       obj.message = "Excellent"
     }
     if(obj.distance >= 1900 && obj.distance <= 2299){
@@ -234,12 +234,12 @@ function resultFemale (obj) {
     if(obj.distance >= 1200 && obj.distance <=1499){
       obj.message = "Below Average"
     }
-    if(obj.distance <1200){
+    if(obj.distance < 1200){
       obj.message = "Poor"
     }
   }
   if(obj.age >= 50) {
-    if(obj.distance > 2200){
+    if(obj.distance >= 2200){
       obj.message = "Excellent"
     }
     if(obj.distance >= 1700 && obj.distance <= 2199){
@@ -251,7 +251,7 @@ function resultFemale (obj) {
     if(obj.distance >= 1100 && obj.distance <=1399){
       obj.message = "Below Average"
     }
-    if(obj.distance <1100){
+    if(obj.distance < 1100){
       obj.message = "Poor"
     }
   }
